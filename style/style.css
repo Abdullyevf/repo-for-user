@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+    /*Header*/  
+
+header {
+    background-color: white;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+header img {
+    width: 166px; 
+    height: 49px; 
+}
+  
+nav {
+    display: flex;
+}
+  
+nav a {
+    color: #07043B;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+    /*Header end*/
+
+    /*First-Section*/
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+  
+.text-content {
+    flex: 1;
+    margin-right: 20px;
+}
+  
+.text-content h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+  
+.text-content p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #666;
+    letter-spacing: 0.53px;
+    font-weight: 400;
+}
+  
+  
+.content-wrapper{
+    max-width: 585px;
+}
+
+.box-button button {
+    width: 200px;
+    height: 65px;
+    background-color: #2F65F8;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+.box-button input {
+    width: 320px;
+    height: 45px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.image-container img {
+    margin-right: 80px;
+    width: 640px; 
+    height: 474px;
+    
+}
+    /*First-Section end*/
+
+
+    /*Second-Section start*/
+.second-section{
+        background-color: #F8F8FE; 
+        margin: auto;
+        color: black;
+        text-align: center;
+        padding: 100px; 
+}
+
+.second-sec-content h1 {
+    font-size: 39px;
+    width: 648px;
+}
+
+.sec-2-ps p{
+    size: 16px;
+    width: 529px;
+    text-align-last: left;
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+}
+
+.highlighted-text {
+    color: #3DA08F; 
+    text-decoration: underline; 
+    margin-right: 10px; 
+    cursor: pointer;
+}
+
+.round-button {
+    border-radius: 50%; 
+    background-color: #3DA08F; 
+    color: #fff; 
+    width: 22px; 
+    height: 20px; 
+    font-size: 13px; 
+    cursor: pointer;
+}
+
+.comment-sec{
+    background-color: white;
+    width: 356px;
+    height: 215px;
+}
+
+.comment-sec h1 {
+    text-align: left;
+
+}
+
+.comment-sec p{
+    width: 289px;
+    text-align: center;
+    text-align-last:left ;
+}
+
+
+.second-sec-right img {
+    margin-right: 80px;
+    width: 542px; 
+    height: 409px;
+    
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.small-profile{
+    display: flex;
+}
+
+.content-profile{
+    margin-left: 5px;
+}
+
+.content-profile h1{
+    font-size: 15px;
+    text-align-last: left;
+}
+
+.content-profile p {
+    font-size: 10px;
+}
+
+    /*Second-Section end*/
+
+
+    /*Third-Section start*/
+
+.third-section{
+    display: flex;
+    text-align: center;
+    background-color: #575988;
+    height: 322px;
+}
+
+.left-part-of-content h1 {
+    font-size: 32px;
+    color: #ffff;
+    margin-top: 100px;
+}
+
+.left-part-of-content p {
+    color: #ffff;
+    font-size: 16px;
+    width: 533px;
+    text-align: left;
+    margin-left: 180px;
+    
+}
+
+.right-part-of-content {
+    margin-left: 200px;
+}
+
+.low button {
+    width: 200px;
+    height: 48px;
+    background-color: #2F65F8;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-right: 300px;
+    cursor: pointer;
+
+}
+
+.up input{
+    text-align: center;
+    margin-top: 100px;
+}
+
+    /*Third-Section end*/
+
+
+    /*Footer start*/
+
+.footer-section{
+    background-color: #07043B;
+    height: 391px;
+    color: white;
+    display: flex;
+    gap: 237px;
+    
+}
+
+.logo-info{
+    margin-top: 92px;
+    margin-left: 80px;
+}
+
+.logos-content{
+    display: flex;
+    gap: 10px;
+}
+
+.phone-info{
+    margin-top: 32px;
+    display: flex;
+    gap: 10px;
+}
+
+.gmail-info{
+    display: flex;
+    gap: 10px;
+}
+
+.about-us{
+    margin-top: 169px;
+}
+
+.socials{
+    display: flex;
+    margin-top: 169px;
+    gap: 10px;
+}
+
+.contact-us{
+    margin-top: 169px;
+}
+
+    /*Footer end*/
